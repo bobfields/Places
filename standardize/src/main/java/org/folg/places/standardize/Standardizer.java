@@ -425,7 +425,7 @@ public class Standardizer {
             logger.severe("Error loading place words: " + e);
          }
       }
-      if (ids != null) {
+      if (ids != null && ids.length > 0) {
          return Arrays.asList(ids);
       }
       return null;
